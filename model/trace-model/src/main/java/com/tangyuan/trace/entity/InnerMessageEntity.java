@@ -1,6 +1,6 @@
 package com.tangyuan.trace.entity;
 
-import com.tangyuan.dal.base.BaseEntity;
+import com.tangyuan.base.dal.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

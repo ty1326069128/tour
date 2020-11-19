@@ -2,8 +2,8 @@ package com.tangyuan.trace.service.impl.web;
 
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.trace.entity.InnerMessageTextEntity;
-import com.tangyuan.trace.facade.record.MessageFacade;
-import com.tangyuan.trace.facade.record.MessageTextFacade;
+import com.tangyuan.trace.facade.MessageFacade;
+import com.tangyuan.trace.facade.MessageTextFacade;
 import com.tangyuan.trace.facade.web.WxUserCenterFacade;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

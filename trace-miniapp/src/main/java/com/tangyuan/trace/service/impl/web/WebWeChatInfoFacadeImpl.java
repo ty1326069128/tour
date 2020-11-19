@@ -6,7 +6,7 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.json.JSONObject;
 import com.tangyuan.trace.dto.MiniAppPhone;
 import com.tangyuan.trace.entity.StoryUserEntity;
-import com.tangyuan.trace.facade.record.StoryUserFacade;
+import com.tangyuan.trace.facade.StoryUserFacade;
 import com.tangyuan.trace.facade.web.WebWeChatInfoFacade;
 import com.tangyuan.trace.service.wechat.WxMiniAppService;
 import com.tangyuan.result.CommonDTO;
