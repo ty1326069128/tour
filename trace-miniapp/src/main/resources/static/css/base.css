@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 Microsoft YaHei;color:#333;outline:0;border:none;}
+*{color: #333;margin: 0;padding: 0;}
+.opacity0{opacity:0;}
+.opacity1{opacity:1 !important;}
+
+.c-blue{color:#4472B0;}
+.c-white{color:#ffffff;}
+.c-green{color:#3BB197;}
+
+.block{display:block !important;}
+.inline-block{display:inline-block;}
+.hidden{display:none;}
+.hidden-txt{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.hidden-txt2{display:-webkit-box !important;overflow:hidden;-webkit-text-overflow:ellipsis;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+
+.text-C{text-align:center}
+.text-L{text-align:left;}
+.text-R{text-align:right;}
+
+.relave{position:relative;}
+.asote{position:absolute;}
+.fixed{position:fixed;}
+.L0{left:0px;}
+.R0{right:0px;}
+.T0{top:0px;}
+.B0{bottom:0px;}
+
+.MT100{margin-top:100px;}
+.MR100{margin-right:100px;}
+.MB100{margin-bottom:100px;}
+.ML100{margin-left:100px;}
+
+.clearfix{zoom:1;}
+.clearfix:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+.wrap{width:1200px;margin-left:auto;margin-right:auto;}
+.mwrap{min-width:1200px;margin-left:auto;margin-right:auto;}
+
+/*019EEF   40E7A2   */
