@@ -11,8 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common</artifactId>
-
-
+    <name>common</name>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -29,16 +28,16 @@
             <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
-            <groupId>commons-beanutils</groupId>
-            <artifactId>commons-beanutils</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
