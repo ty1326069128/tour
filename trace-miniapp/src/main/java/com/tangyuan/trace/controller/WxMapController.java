@@ -3,7 +3,7 @@ package com.tangyuan.trace.controller;
 import com.tangyuan.trace.dto.RecordImage;
 import com.tangyuan.trace.dto.RecordPoint;
 import com.tangyuan.trace.dto.UserInfo;
-import com.tangyuan.trace.facade.web.WebMapFacade;
+import com.tangyuan.trace.service.WebMapService;
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.result.ResponseResult;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +17,7 @@ import javax.annotation.Resource;
 public class WxMapController {
 
     @Resource
-    private WebMapFacade webMapFacade;
+    private WebMapService webMapFacade;
 
     /**
      * 获取记录数量

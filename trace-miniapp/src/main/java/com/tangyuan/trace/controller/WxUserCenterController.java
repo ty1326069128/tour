@@ -2,7 +2,7 @@ package com.tangyuan.trace.controller;
 
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.result.ResponseResult;
-import com.tangyuan.trace.facade.web.WxUserCenterFacade;
+import com.tangyuan.trace.service.WxUserCenterService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 @RequestMapping(value = "api/map/user/")
 public class WxUserCenterController {
     @Resource
-    WxUserCenterFacade wxUserCenterFacade;
+    WxUserCenterService wxUserCenterFacade;
 
     /**
      * 获取用户站内信条数

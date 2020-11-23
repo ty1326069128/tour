@@ -31,6 +31,12 @@ public class StoryTraceEntity extends BaseEntity {
     private BigDecimal lat = BigDecimal.ZERO;
     @Column(name = "images")
     private String images;
+    @Column(name = "review_status")
+    private Integer reviewStatus;
+    @Column(name = "review_detail")
+    private String reviewDetail;
+    @Column(name = "status")
+    private Integer status;
     @Column(name = "created_at")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Timestamp createdAt;

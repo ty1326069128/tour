@@ -1,7 +1,7 @@
 package com.tangyuan.trace.controller;
 
 import com.tangyuan.trace.dto.MiniAppPhone;
-import com.tangyuan.trace.facade.web.WebWeChatInfoFacade;
+import com.tangyuan.trace.service.WebWeChatInfoService;
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.result.ResponseResult;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,7 @@ import javax.annotation.Resource;
 public class WeChatController {
 
     @Resource
-    WebWeChatInfoFacade webWeChatInfoFacade;
+    WebWeChatInfoService webWeChatInfoFacade;
 
     /**
      * 登录

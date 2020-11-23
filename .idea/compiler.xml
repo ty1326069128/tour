@@ -9,6 +9,7 @@
         <module name="trace-miniapp" />
         <module name="common" />
         <module name="trace-admin" />
+        <module name="trace-facade" />
         <module name="trace-model" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="dependencies" options="" />
       <module name="tour" options="-parameters" />
       <module name="trace-admin" options="-parameters" />
+      <module name="trace-facade" options="-parameters" />
       <module name="trace-miniapp" options="-parameters" />
       <module name="trace-model" options="-parameters" />
     </option>

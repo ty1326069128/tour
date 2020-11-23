@@ -2,7 +2,7 @@ package com.tangyuan.trace.controller;
 
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.result.ResponseResult;
-import com.tangyuan.trace.facade.web.WebMapFacade;
+import com.tangyuan.trace.service.WebMapService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ import javax.annotation.Resource;
 @RequestMapping(value = "api/map/MapPc/")
 public class WxHomeController {
     @Resource
-    private WebMapFacade webMapFacade;
+    private WebMapService webMapFacade;
 
     /**
      * 主页

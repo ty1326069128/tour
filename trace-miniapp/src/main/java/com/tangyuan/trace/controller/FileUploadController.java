@@ -1,6 +1,6 @@
 package com.tangyuan.trace.controller;
 
-import com.tangyuan.trace.facade.web.WebFileUploadFacade;
+import com.tangyuan.trace.service.WebFileUploadService;
 import com.tangyuan.result.CommonDTO;
 import com.tangyuan.result.ResponseResult;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 public class FileUploadController {
 
     @Resource
-    WebFileUploadFacade webFileUploadFacade;
+    WebFileUploadService webFileUploadFacade;
 
     /**
      * 文件上传

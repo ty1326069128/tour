@@ -24,6 +24,8 @@ public class StoryHomeEntity extends BaseEntity {
     private Integer sort;
     @Column(name = "status")
     private Integer status;
+    @Column(name = "is_delete")
+    private Integer isDelete;
     @Column(name = "created_at")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Timestamp createdAt;
