@@ -1,8 +1,8 @@
 package com.tangyuan.trace.facade.impl;
 
+import com.tangyuan.base.service.AbstractService;
 import com.tangyuan.trace.entity.StoryUserEntity;
 import com.tangyuan.trace.facade.StoryUserFacade;
-import com.tangyuan.base.service.AbstractService;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Condition;
 import tk.mybatis.mapper.entity.Example;

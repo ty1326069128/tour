@@ -1,7 +1,8 @@
 package com.tangyuan.trace.dao;
 
+
 import com.tangyuan.base.dal.CrudDAO;
-import com.tangyuan.trace.entity.StoryUserEntity;
+import com.tangyuan.trace.entity.StoryTraceEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 
@@ -10,6 +11,6 @@ import org.apache.ibatis.annotations.Mapper;
 * Date  2020-09-24
 */
 @Mapper
-public interface StoryUserDAO extends CrudDAO<StoryUserEntity> {
+public interface StoryTraceDAO extends CrudDAO<StoryTraceEntity> {
 
 }

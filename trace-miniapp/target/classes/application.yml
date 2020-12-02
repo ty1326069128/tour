@@ -1,7 +1,5 @@
 mybatis:
   config-location: classpath:config/sqlMapConfig.xml
-  type-aliases-package: com.tangyuan.blog.dal.com.tangyuan.trace.entity
-  mapper-locations:    classpath:config/mapper/*Mapper.xml
 spring:
   profiles:
     active: dev

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
+
 /**
  * @author tangyuan
  * @version 1.0
@@ -17,6 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "api/admin/home/")
 public class AdminHomeController {
+    @Resource
     private WebStoryHomeService webStoryHomeService;
 
     @GetMapping("/getStoryHomeList/{status}")

@@ -1,7 +1,6 @@
 package com.tangyuan.trace.enums;
 
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * @author tangyuan

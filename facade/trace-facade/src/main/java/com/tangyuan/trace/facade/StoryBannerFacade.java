@@ -1,8 +1,8 @@
 package com.tangyuan.trace.facade;
 
 
-import com.tangyuan.trace.entity.StoryBannerEntity;
 import com.tangyuan.base.service.Service;
+import com.tangyuan.trace.entity.StoryBannerEntity;
 
 /**
 * Author tangyuan

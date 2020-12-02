@@ -1,14 +1,12 @@
 package com.tangyuan.trace.facade.impl;
 
-import com.tangyuan.trace.dao.StoryUserDAO;
+import com.tangyuan.base.service.AbstractService;
 import com.tangyuan.trace.entity.StoryTraceEntity;
 import com.tangyuan.trace.facade.StoryTraceFacade;
-import com.tangyuan.base.service.AbstractService;
 import org.springframework.stereotype.Service;
 import tk.mybatis.mapper.entity.Condition;
 import tk.mybatis.mapper.entity.Example;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 
@@ -18,8 +16,6 @@ import java.util.List;
  */
 @Service
 public class StoryTraceFacadeImpl extends AbstractService<StoryTraceEntity> implements StoryTraceFacade {
-    @Resource
-    private StoryUserDAO storyDAO;
 
     @Override
     public int findStoryCountByUserId(Integer userId) {

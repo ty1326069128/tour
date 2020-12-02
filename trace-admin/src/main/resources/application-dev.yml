@@ -4,9 +4,6 @@ server:
     max-http-header-size: 8096
 spring:
   datasource:
-    url:
-    username:
-    password:
 
 ###########分页###########
 

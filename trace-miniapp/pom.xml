@@ -59,6 +59,8 @@
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
         </dependency>
+        <!-- Sql End -->
+
         <!-- 微信小程序 -->
         <dependency>
             <groupId>com.github.binarywang</groupId>
@@ -69,29 +71,6 @@
             <groupId>com.github.binarywang</groupId>
             <artifactId>weixin-java-mp</artifactId>
         </dependency>
-        <!-- Sql End -->
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-            <!-- 1.5的版本默认采用的连接池技术是jedis 2.0以上版本默认连接池是lettuce, 在这里采用jedis，所以需要排除lettuce的jar -->
-            <exclusions>
-                <exclusion>
-                    <groupId>redis.clients</groupId>
-                    <artifactId>jedis</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>io.lettuce</groupId>
-                    <artifactId>lettuce-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!-- 添加jedis客户端 -->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-        </dependency>
-        <!--Project Begin -->
     </dependencies>
     <!-- 打包 -->
     <build>
@@ -101,7 +80,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <!-- 指定启动类 -->
-                    <mainClass>com.tangyuan.trace.TourApplication</mainClass>
+                    <mainClass>com.tangyuan.miniapp.TourApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
