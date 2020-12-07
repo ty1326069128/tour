@@ -1,7 +1,7 @@
 package com.tangyuan.trace.facade.impl;
 
 
-import com.tangyuan.base.service.AbstractService;
+import com.tangyuan.common.base.service.AbstractService;
 import com.tangyuan.trace.dao.InnerMessageTextDAO;
 import com.tangyuan.trace.entity.InnerMessageTextEntity;
 import com.tangyuan.trace.facade.InnerMessageTextFacade;

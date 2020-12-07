@@ -1,6 +1,6 @@
 package com.tangyuan.trace.entity;
 
-import com.tangyuan.base.dal.BaseEntity;
+import com.tangyuan.common.base.dal.BaseEntity;
 import lombok.Data;
 
 import javax.persistence.Column;

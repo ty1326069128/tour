@@ -10,7 +10,7 @@ import cn.hutool.core.util.StrUtil;
 import com.tangyuan.miniapp.config.WxMaConfiguration;
 import com.tangyuan.miniapp.config.wx.WxMaProperties;
 import com.tangyuan.trace.dto.MiniAppPhone;
-import com.tangyuan.exception.BusinessException;
+import com.tangyuan.common.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.bean.WxJsapiSignature;
 import me.chanjar.weixin.common.error.WxErrorException;

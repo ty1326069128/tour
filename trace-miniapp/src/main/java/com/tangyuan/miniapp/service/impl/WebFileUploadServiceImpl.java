@@ -1,8 +1,8 @@
 package com.tangyuan.miniapp.service.impl;
 
-import com.tangyuan.result.CommonDTO;
+import com.tangyuan.common.result.CommonDTO;
 import com.tangyuan.miniapp.service.WebFileUploadService;
-import com.tangyuan.utils.FileUtils;
+import com.tangyuan.common.utils.FileUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;

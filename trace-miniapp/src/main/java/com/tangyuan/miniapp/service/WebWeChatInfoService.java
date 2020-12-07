@@ -1,7 +1,7 @@
 package com.tangyuan.miniapp.service;
 
 import com.tangyuan.trace.dto.MiniAppPhone;
-import com.tangyuan.result.CommonDTO;
+import com.tangyuan.common.result.CommonDTO;
 
 /**
  * @author tangyuan

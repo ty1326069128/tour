@@ -1,6 +1,6 @@
 package com.tangyuan.miniapp.service;
 
-import com.tangyuan.result.CommonDTO;
+import com.tangyuan.common.result.CommonDTO;
 
 /**
  * @author tangyuan

@@ -1,7 +1,7 @@
 package com.tangyuan.miniapp.controller;
 
-import com.tangyuan.result.CommonDTO;
-import com.tangyuan.result.ResponseResult;
+import com.tangyuan.common.result.CommonDTO;
+import com.tangyuan.common.result.ResponseResult;
 import com.tangyuan.miniapp.service.WebMapService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,6 +1,6 @@
 package com.tangyuan.trace.facade.impl;
 
-import com.tangyuan.base.service.AbstractService;
+import com.tangyuan.common.base.service.AbstractService;
 import com.tangyuan.trace.entity.StoryHomeEntity;
 import com.tangyuan.trace.facade.StoryHomeFacade;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.tangyuan.miniapp.service.impl;
 
-import com.tangyuan.result.CommonDTO;
+import com.tangyuan.common.result.CommonDTO;
 import com.tangyuan.trace.entity.InnerMessageTextEntity;
 import com.tangyuan.miniapp.service.WxUserCenterService;
 import com.tangyuan.trace.facade.InnerMessageFacade;

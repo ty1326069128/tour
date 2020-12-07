@@ -1,7 +1,7 @@
 package com.tangyuan.trace.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.tangyuan.base.dal.BaseEntity;
+import com.tangyuan.common.base.dal.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

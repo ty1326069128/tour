@@ -2,8 +2,8 @@ package com.tangyuan.miniapp.controller;
 
 import com.tangyuan.trace.dto.MiniAppPhone;
 import com.tangyuan.miniapp.service.WebWeChatInfoService;
-import com.tangyuan.result.CommonDTO;
-import com.tangyuan.result.ResponseResult;
+import com.tangyuan.common.result.CommonDTO;
+import com.tangyuan.common.result.ResponseResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

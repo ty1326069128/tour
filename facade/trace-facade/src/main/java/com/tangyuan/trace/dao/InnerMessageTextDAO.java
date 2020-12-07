@@ -1,6 +1,6 @@
 package com.tangyuan.trace.dao;
 
-import com.tangyuan.base.dal.CrudDAO;
+import com.tangyuan.common.base.dal.CrudDAO;
 import com.tangyuan.trace.entity.InnerMessageTextEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

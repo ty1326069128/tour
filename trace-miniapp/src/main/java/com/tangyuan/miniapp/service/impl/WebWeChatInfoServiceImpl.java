@@ -5,7 +5,7 @@ import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.json.JSONObject;
 import com.tangyuan.miniapp.service.WebWeChatInfoService;
-import com.tangyuan.result.CommonDTO;
+import com.tangyuan.common.result.CommonDTO;
 import com.tangyuan.trace.dto.MiniAppPhone;
 import com.tangyuan.trace.entity.StoryUserEntity;
 import com.tangyuan.trace.facade.StoryUserFacade;

@@ -21,87 +21,136 @@
   <component name="ChangeListManager">
     <list default="true" id="0017c51b-7615-447c-9538-f3a859571ec2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/CommonPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/MessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/MessageTextDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageTextDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/annotations/EnumValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/annotations/EnumValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/annotations/ServiceLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/annotations/ServiceLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/aspect/RestControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/aspect/RestControllerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/aspect/ServiceLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/aspect/ServiceLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/BaseQueryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/CrudDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/CrudDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/DeleteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/DeleteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/InsertDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/InsertDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/SelectDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/SelectDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/dal/UpdateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/dal/UpdateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/service/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/service/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/base/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/base/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/config/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/config/WebAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/constants/AuthConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/constants/AuthConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/constants/ProjectConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/constants/ProjectConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/enums/DateTimeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/enums/DateTimeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/enums/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/exception/BaseGlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/exception/BaseGlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/interceptor/AllowCrossDomainInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/interceptor/AllowCrossDomainInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/interceptor/ResponseResultInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/interceptor/ResponseResultInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/BaseQueryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/BaseQueryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/CommonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/CommonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/DefaultErrorResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/DefaultErrorResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/ParameterInvalidItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/ParameterInvalidItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/PlatformResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/PlatformResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/ResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/ResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/ResponseResultHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/ResponseResultHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/result/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/result/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/ConvertUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/ConvertUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/GUIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/GUIDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/GUIDGeneratorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/GUIDGeneratorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/IpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/IpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/LogAspectUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/LogAspectUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/RequestContextHolderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/RequestContextHolderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/utils/SessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/tangyuan/common/utils/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/annotations/EnumValue$Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/annotations/EnumValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/annotations/ServiceLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/aspect/RestControllerAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/aspect/ServiceLogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/BaseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/BaseQueryDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/CrudDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/DeleteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/InsertDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/SelectDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/dal/UpdateDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/service/AbstractService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/base/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/config/WebAppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/constants/AuthConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/constants/ProjectConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/enums/DateTimeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/enums/ErrorCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/exception/BaseGlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/exception/BusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/interceptor/AllowCrossDomainInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/interceptor/ResponseResultInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/BaseQueryDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/CommonDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/DefaultErrorResult$DefaultErrorResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/DefaultErrorResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/ParameterInvalidItem$ParameterInvalidItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/ParameterInvalidItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/PlatformResult$PlatformResultBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/PlatformResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/ResponseResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/result/ResultCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/ConvertUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/GUIDGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/GUIDGeneratorUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/IpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/LogAspectUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/RequestContextHolderUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/tangyuan/utils/SessionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageTextDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/InnerMessageTextDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryBannerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryBannerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryHomeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryHomeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryTraceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryTraceDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryUserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/TyInnerMessageDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/WxStoryUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/dao/StoryTraceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/MessageFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/MessageTextFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageTextFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageTextFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/InnerMessageTextFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryBannerFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryBannerFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryHomeFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryHomeFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryTraceFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryTraceFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryUserFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/StoryUserFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/TyInnerMessageFacade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/MessageFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageFacadeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/MessageTextFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageTextFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageFacadeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageTextFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/InnerMessageTextFacadeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryBannerFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryBannerFacadeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryHomeFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryHomeFacadeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryTraceFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryTraceFacadeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryUserFacadeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/StoryUserFacadeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facade/trace-facade/src/main/java/com/tangyuan/trace/facade/impl/TyInnerMessageFacadeImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/TyInnerMessageEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/enums/MessageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/enums/MessageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/InnerMessageEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/InnerMessageEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/InnerMessageTextEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/InnerMessageTextEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryBannerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryBannerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryHomeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryHomeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryTraceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryTraceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/trace-model/src/main/java/com/tangyuan/trace/entity/StoryUserEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/controller/AdminHomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/controller/AdminHomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/service/WebStoryHomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/service/WebStoryHomeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/service/impl/StoryHomeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/java/com/tangyuan/admin/service/impl/StoryHomeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace-admin/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-admin/target/classes/com/tangyuan/admin/AdminApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trace-admin/target/classes/com/tangyuan/admin/AdminApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/TourApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/TourApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/config/ConnectorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/config/ConnectorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/config/RestTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/config/WxMaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/config/WxMaConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/config/wx/WxMaProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/config/wx/WxMaProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/controller/WeChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WeChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/controller/WxHomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxHomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/controller/WxMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxMapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/controller/WxUserCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxUserCenterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/WebFileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebFileUploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/WebMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/WebWeChatInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebWeChatInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/WxUserCenterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WxUserCenterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/impl/WebFileUploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebFileUploadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/impl/WebMapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebMapServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/impl/WebWeChatInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebWeChatInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/impl/WxMiniAppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxMiniAppServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/trace/service/impl/WxUserCenterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxUserCenterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WeChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WeChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxHomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxHomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxMapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxMapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxUserCenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/controller/WxUserCenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebFileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebFileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebWeChatInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WebWeChatInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WxUserCenterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/WxUserCenterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebFileUploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebFileUploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebMapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebMapServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebWeChatInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WebWeChatInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxMiniAppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxMiniAppServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxUserCenterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/java/com/tangyuan/miniapp/service/impl/WxUserCenterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/file/2019-14-26-12-14-12-922de25767964.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/images/aboutperson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/images/caption.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/static/images/title.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/src/main/resources/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/trace-miniapp/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/TourApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/ConnectorConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/ConnectorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/RestTemplateConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/WxMaConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/wx/WxMaProperties$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/config/wx/WxMaProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/controller/FileUploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/controller/WeChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/controller/WxHomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/controller/WxMapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/controller/WxUserCenterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/com/tangyuan/trace/service/wechat/WxMiniAppService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/file/2019-14-26-12-14-12-922de25767964.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/images/aboutperson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/images/caption.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/static/images/title.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace-miniapp/target/classes/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +162,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,6 +203,9 @@
     <property name="project.structure.side.proportion" value="0.16425425" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tangyuan.utils" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tangyuan.blog.service.impl.web" />
     </key>
@@ -163,13 +215,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="J:\work-extra\tour\dependencies" />
-      <recent name="J:\work-extra\tour\trace\src\main\java" />
-      <recent name="J:\work-extra\tour\src\main\resources" />
-      <recent name="J:\work-extra\tour\src\main\resources\static\templates" />
-      <recent name="J:\work-extra\tour\src\main\resources\config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="J:\work-extra\tour\trace-admin\src\main\resources" />
       <recent name="J:\work-extra\tour\facade\trace-facade\src\main\resources" />
@@ -178,14 +223,18 @@
       <recent name="J:\work-extra\tour\admin\src\main\java\com\tangyuan\admin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tangyuan.trace.dto" />
       <recent name="com.tangyuan.trace.dao" />
       <recent name="com.tangyuan.trace.controller" />
       <recent name="com.tangyuan.trace.service.logic" />
       <recent name="com.tangyuan.trace.service" />
-      <recent name="com.tangyuan.trace.service.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.tangyuan.utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="J:\work-extra\tour\dependencies" />
+      <recent name="J:\work-extra\tour\trace\src\main\java" />
+      <recent name="J:\work-extra\tour\src\main\resources" />
+      <recent name="J:\work-extra\tour\src\main\resources\static\templates" />
+      <recent name="J:\work-extra\tour\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +347,8 @@
       <workItem from="1606804435157" duration="1836000" />
       <workItem from="1606806322476" duration="11201000" />
       <workItem from="1606890805940" duration="146000" />
-      <workItem from="1606891281151" duration="1442000" />
+      <workItem from="1606891281151" duration="1535000" />
+      <workItem from="1606892952877" duration="6966000" />
     </task>
     <task id="LOCAL-00001" summary="add module">
       <created>1605772997521</created>
@@ -373,62 +423,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1062" y="321" width="747" height="589" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1606741506305" />
-    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1606742077340">
+    <state width="473" height="466" key="DebuggerActiveHint" timestamp="1606894408110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="472" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606742077340" />
+    <state width="473" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1606894408110" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605859486025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605859486025" />
-    <state width="1561" height="457" key="GridCell.Tab.0.bottom" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.0.bottom" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.0.center" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.0.center" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.0.left" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.0.left" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.0.right" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.0.right" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.1.bottom" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.1.bottom" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.1.center" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.1.center" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.1.left" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.1.left" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.1.right" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.1.right" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.2.bottom" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.2.bottom" timestamp="1606983234155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.2.center" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234155" />
+    <state width="1561" height="633" key="GridCell.Tab.2.center" timestamp="1606983234155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.2.left" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234155" />
+    <state width="1561" height="633" key="GridCell.Tab.2.left" timestamp="1606983234154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
-    <state width="1561" height="457" key="GridCell.Tab.2.right" timestamp="1606892606310">
+    <state width="1561" height="633" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234154" />
+    <state width="1561" height="633" key="GridCell.Tab.2.right" timestamp="1606983234155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1561" height="457" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606892606310" />
+    <state width="1561" height="633" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606983234155" />
     <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1602831841346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -441,10 +491,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605773124411" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606807389608">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606893377597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606807389608" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606893377597" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1601364396870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -461,18 +511,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="265" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604037296429" />
-    <state x="661" y="228" width="608" height="584" key="find.popup" timestamp="1606803084432">
+    <state x="661" y="228" width="608" height="584" key="find.popup" timestamp="1606898328185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="228" width="608" height="584" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606803084432" />
+    <state x="661" y="228" width="608" height="584" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606898328185" />
     <state x="334" y="180" key="new project wizard" timestamp="1605856886303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605856886303" />
-    <state x="736" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1605854803539">
+    <state x="736" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1606893988541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="276" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605854803539" />
+    <state x="736" y="276" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606893988541" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603334698012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

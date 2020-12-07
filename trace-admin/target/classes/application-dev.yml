@@ -14,5 +14,10 @@ logging:
   config: classpath:config/log4j2-dev.xml
   level:
     root: debug
+pagehelper:
+  helper-dialect: mysql
+  reasonable: false
+  support-methods-arguments: true
+  params: count=countSql
 file:
   img: file:D:/Photos/img/

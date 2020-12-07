@@ -1,7 +1,7 @@
 package com.tangyuan.trace.dao;
 
 
-import com.tangyuan.base.dal.CrudDAO;
+import com.tangyuan.common.base.dal.CrudDAO;
 import com.tangyuan.trace.entity.StoryHomeEntity;
 import org.apache.ibatis.annotations.Mapper;
 

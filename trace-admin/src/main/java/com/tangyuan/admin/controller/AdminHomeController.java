@@ -1,12 +1,11 @@
 package com.tangyuan.admin.controller;
 
 import com.tangyuan.admin.service.WebStoryHomeService;
-import com.tangyuan.result.CommonDTO;
-import com.tangyuan.result.ResponseResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.tangyuan.common.result.BaseQueryDTO;
+import com.tangyuan.common.result.CommonDTO;
+import com.tangyuan.common.result.ResponseResult;
+import com.tangyuan.trace.dto.ReqStoryHomeQueryDTO;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -22,8 +21,8 @@ public class AdminHomeController {
     @Resource
     private WebStoryHomeService webStoryHomeService;
 
-    @GetMapping("/getStoryHomeList/{status}")
-    public CommonDTO getStoryHomeList(@PathVariable Integer status) {
-        return webStoryHomeService.getStoryHomeList(status);
+    @PostMapping("/getStoryHomeList")
+    public CommonDTO getStoryHomeList(@RequestBody BaseQueryDTO<ReqStoryHomeQueryDTO> baseQueryDTO) {
+        return webStoryHomeService.getStoryHomeList(baseQueryDTO);
     }
 }

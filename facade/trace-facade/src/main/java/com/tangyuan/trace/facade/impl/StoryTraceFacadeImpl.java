@@ -1,6 +1,7 @@
 package com.tangyuan.trace.facade.impl;
 
-import com.tangyuan.base.service.AbstractService;
+import com.github.pagehelper.Page;
+import com.tangyuan.common.base.service.AbstractService;
 import com.tangyuan.trace.entity.StoryTraceEntity;
 import com.tangyuan.trace.facade.StoryTraceFacade;
 import org.springframework.stereotype.Service;
@@ -34,11 +35,7 @@ public class StoryTraceFacadeImpl extends AbstractService<StoryTraceEntity> impl
     }
 
     @Override
-    public List<StoryTraceEntity> findByStatus(Integer status, Integer reviewStatus) {
-        Condition condition = new Condition(StoryTraceEntity.class);
-        Example.Criteria criteria = condition.createCriteria();
-        criteria.andEqualTo("status", status)
-                .andEqualTo("reviewStatus", reviewStatus);
-        return this.findByCondition(condition);
+    public Page<StoryTraceEntity> findByStatus(Condition condition, Integer... page) {
+        return this.findPageByCondition(condition, page);
     }
 }

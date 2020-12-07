@@ -1,7 +1,7 @@
 package com.tangyuan.miniapp.controller;
 
-import com.tangyuan.result.CommonDTO;
-import com.tangyuan.result.ResponseResult;
+import com.tangyuan.common.result.CommonDTO;
+import com.tangyuan.common.result.ResponseResult;
 import com.tangyuan.miniapp.service.WxUserCenterService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

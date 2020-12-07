@@ -1,7 +1,7 @@
 package com.tangyuan.trace.facade;
 
 
-import com.tangyuan.base.service.Service;
+import com.tangyuan.common.base.service.Service;
 import com.tangyuan.trace.entity.InnerMessageTextEntity;
 
 import java.util.List;

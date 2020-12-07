@@ -1,7 +1,7 @@
 package com.tangyuan.trace.facade.impl;
 
 
-import com.tangyuan.base.service.AbstractService;
+import com.tangyuan.common.base.service.AbstractService;
 import com.tangyuan.trace.entity.InnerMessageEntity;
 import com.tangyuan.trace.facade.InnerMessageFacade;
 import lombok.extern.slf4j.Slf4j;
